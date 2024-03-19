@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>💙 PEACE ZOOM 💙</h1>
+        
+        <div class="input-fields">
+            <label>👤 User Name:</label>
+            <input type="text" placeholder="Your name" id="username">
+            <label>🏠 Room Name:</label>
+            <input type="text" placeholder="Enter the room" id="roomname">
+        </div>
+
+        <section class="chat-content">
+            <div class="people-list"> 
+                <!-- if use the element only once, use ID is better -->
+                <h4>👥 People in Room</h4>
+                <p>Room is empty.</p>
+            </div>
+            
+            <div class="chat-box">
+                <p>Type in a User Name and Room Name (then press Enter) to join the chat...</p>
+            </div>
+        </section>
+
+        <div class="message-input-area">
+            <label>📪 Message:</label>
+            <input type="text" placeholder="Type your message..." id="message-input">
+            <button id="send">Send</button>
+            <button id="leave">Leave Room</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
